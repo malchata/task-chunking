@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      Task chunking demo
+    </title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>Task chunking demo</h1>
+    <h2>Experiment with the following buttons while a performance profiler is running to see the results.</h2>
+    <button id="no-chunking">
+      Run blocking tasks without chunking
+    </button>
+    <button id="chunking-with-settimeout">
+      Run chunked blocking tasks with setTimeout
+    </button>
+    <button id="chunking-with-promise-settimeout">
+      Run chunked blocking tasks with Promise resolving with setTimeout
+    </button>
+    <button id="chunking-with-posttask">
+      Run chunked blocking tasks with postTask
+    </button>
+    <button id="chunking-with-requestidlecallback">
+      Run chunked blocking tasks with requestIdleCallback
+    </button>
+    <script src="/scripts.js"></script>
+  </body>
+</html>

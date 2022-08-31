@@ -1,0 +1,29 @@
+{
+  "name": "task-chunking",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A small demo that shows how to chunk up tasks.",
+  "main": "http.js",
+  "scripts": {
+    "server": "node http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malchata/task-chunking.git"
+  },
+  "keywords": [
+    "task",
+    "chunking",
+    "inp",
+    "performance"
+  ],
+  "author": "Jeremy L. Wagner <jeremy.l.wagner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malchata/task-chunking/issues"
+  },
+  "homepage": "https://github.com/malchata/task-chunking#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
